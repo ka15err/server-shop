@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "freedb_admin_beka",
+    "password": "X743&mT?anQstMV",
+    "database": "freedb_shop_mabel",
+    "host": "sql.freedb.tech",
+    "dialect": "mysql",
+    "port": 3306
+  },
+  "test": {
+    "username": "freedb_admin_beka",
+    "password": "X743&mT?anQstMV",
+    "database": "freedb_shop_mabel",
+    "host": "sql.freedb.tech",
+    "dialect": "mysql",
+    "port": 3306
+  },
+  "production": {
+    "username": "freedb_admin_beka",
+    "password": "X743&mT?anQstMV",
+    "database": "freedb_shop_mabel",
+    "host": "sql.freedb.tech",
+    "dialect": "mysql",
+    "port": 3306
+  }
+}
