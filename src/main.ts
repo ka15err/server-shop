@@ -16,7 +16,7 @@ async function bootstrap() {
   app.use(passport.session());
   app.enableCors({
     credentials: true,
-    origin: ['http://localhost:3001', 'https://client-shop-vzp6.onrender.com/'],
+    origin: ['http://localhost:3001', 'https://client-shop-vzp6.onrender.com'],
   });
 
   const config = new DocumentBuilder()
