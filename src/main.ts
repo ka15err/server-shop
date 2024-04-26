@@ -20,6 +20,7 @@ async function bootstrap() {
       'http://localhost:3001',
       'https://client-shop-vzp6.onrender.com',
       'https://mebel-ol0vlmj5s-ka15errs-projects.vercel.app',
+      'https://mebel-kz.netlify.app/',
     ],
   });
 
