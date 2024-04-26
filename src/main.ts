@@ -19,9 +19,8 @@ async function bootstrap() {
     origin: [
       'http://localhost:3001',
       'https://client-shop-vzp6.onrender.com',
-      'https://mebel-ol0vlmj5s-ka15errs-projects.vercel.app',
       'https://mebel-kz.netlify.app',
-      'https://mebel-2bl2kg8zl-ka15errs-projects.vercel.app',
+      'https://mebel-kz.vercel.app',
     ],
   });
 
