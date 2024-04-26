@@ -18,9 +18,8 @@ async function bootstrap() {
     credentials: true,
     origin: [
       'http://localhost:3001',
-      'https://client-shop-vzp6.onrender.com',
-      'https://mebel-kz.netlify.app',
-      'https://mebel-kz.vercel.app',
+      'https://mebel-kz-delta.vercel.app',
+      'https://client-shop-vzp6.onrender.com/',
     ],
   });
 
