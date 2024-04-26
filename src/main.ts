@@ -13,16 +13,6 @@ async function bootstrap() {
     }),
   );
   app.use(passport.initialize());
-  app.use(passport.session());
-  app.enableCors({
-    credentials: true,
-    origin: [
-      'http://localhost:3001',
-      'https://client-shop-vzp6.onrender.com',
-      'https://mebel-kz.netlify.app',
-      'https://mebel-kz.vercel.app',
-    ],
-  });
 
   const config = new DocumentBuilder()
     .setTitle('Офисные мебели')
