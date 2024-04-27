@@ -19,7 +19,7 @@ async function bootstrap() {
     origin: [
       'http://localhost:3001',
       'https://mebel-kz-delta.vercel.app',
-      'https://client-shop-vzp6.onrender.com',
+      'https://client-shop-production-627e.up.railway.app',
     ],
   });
 
