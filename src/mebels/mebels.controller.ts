@@ -25,28 +25,24 @@ import {
 export class MebelsController {
   constructor(private readonly mebelsService: MebelsService) {}
   @ApiOkResponse({ type: PaginateAndFilterResponse })
-  @UseGuards(AuthenticatedGuard)
   @Get()
   paginateAndFilter(@Query() query) {
     return this.mebelsService.paginateAndFilter(query);
   }
 
   @ApiOkResponse({ type: FindOneResponse })
-  @UseGuards(AuthenticatedGuard)
   @Get('find/:id')
   getOne(@Param('id') id: string) {
     return this.mebelsService.findOne(id);
   }
 
   @ApiOkResponse({ type: GetBestsellersResponse })
-  @UseGuards(AuthenticatedGuard)
   @Get('bestsellers')
   getBestseller() {
     return this.mebelsService.bestsellers();
   }
 
   @ApiOkResponse({ type: GetNewResponse })
-  @UseGuards(AuthenticatedGuard)
   @Get('new')
   getNew() {
     return this.mebelsService.new();
